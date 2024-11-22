@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PT_Glass_mat
+  m_Shader: {fileID: 4800000, guid: 21227b39e56cdf547b03504ab8fc3047, type: 3}
+  m_ValidKeywords:
+  - _ALPHAPREMULTIPLY_ON
+  m_InvalidKeywords:
+  - _METALICON_ON
+  - _SMOOTHNESSON_ON
+  - _TRANSPARENCYONOFF_ON
+  - _TRANSPARENCY_SWITCH_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _TextureSample2:
+        m_Texture: {fileID: 2800000, guid: 34892be16c52f1948b4b5666052d6bf5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample9:
+        m_Texture: {fileID: 2800000, guid: c91055552562c3941a1c318e8d5bc5c5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ChromaticAberration: 0.1
+    - _Float0: 1
+    - _GlossyReflections: 1
+    - _METALLIC: 1
+    - _MetalicOn: 1
+    - _SMOOTHNESS: 0.496
+    - _Smoothness: 0.888
+    - _SmoothnessOn: 1
+    - _TransAmbient: 0.2
+    - _TransDirect: 1
+    - _TransNormalDistortion: 0.1
+    - _TransScattering: 2
+    - _TransShadow: 0.9
+    - _Translucency: 1
+    - _Transparency: 0.591
+    - __dirty: 1
+    m_Colors:
+    - _COLOR: {r: 0.8480685, g: 5.3102465, b: 5.448197, a: 1}
+    - _Color: {r: 0.3962264, g: 0.3947047, b: 0.2710039, a: 1}
+  m_BuildTextureStacks: []
